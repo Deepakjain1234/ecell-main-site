@@ -1,0 +1,198 @@
+.header-cont
+{
+    /* margin-top: 40px; */
+    height: 100vh;
+    background: url("/img/ecell_back.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.inner-conti {
+    display: flex;
+    height: 76vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding-top: 80px;
+}
+.image-box
+{
+    margin-bottom: 20px;
+}
+.inner-conti img
+{
+    height: 200px;
+    width: 200px;
+}
+.ecell-heading
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ecell-heading pre
+{
+    margin: 0px 0px;
+}
+h1 {
+    font-size: 72px;
+   
+  }
+.ecell-heading h1
+{
+    /* color: #FDCA85; */
+    font-size: 52px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(45deg,#BC945D, #966F41,#FDCA85,#966F41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ecell-heading h2
+{
+    /* color: #FDCA85; */
+    font-size: 39px;
+    font-weight: 300;
+    background: -webkit-linear-gradient(45deg,#BC945D, #966F41,#FDCA85,#966F41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.x-box
+{
+    margin: 5px 5px;
+}
+.x-box a
+{color: #FFC688;
+    text-decoration: none;
+
+}
+.rolta-box h3
+{
+    font-weight: 200;
+    font-size: 26px;
+
+}
+.arrow-box
+{
+    margin-top: 24px;
+}
+.arrow-box i
+{
+    font-size: 43px;
+    color: #FDCA85;
+}
+@media (max-width: 1050px)
+{
+    .ecell-heading h1 {
+        /* color: #FDCA85; */
+        font-size: 43px;
+        font-weight: 400;
+        background: -webkit-linear-gradient(
+    45deg,#BC945D, #966F41,#FDCA85,#966F41);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .ecell-heading h2 {
+        /* color: #FDCA85; */
+        font-size: 33px;
+        font-weight: 300;
+        background: -webkit-linear-gradient(
+    45deg,#BC945D, #966F41,#FDCA85,#966F41);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .rolta-box h3 {
+        font-weight: 200;
+        font-size: 21px;
+    }
+}
+@media (max-width: 900px)
+{
+    .inner-conti img {
+        height: 170px;
+        width: 170px;
+    }
+    .ecell-heading h1 {
+        /* color: #FDCA85; */
+        font-size: 32px;
+        font-weight: 400;
+        background: -webkit-linear-gradient( 
+    45deg,#BC945D, #966F41,#FDCA85,#966F41);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .ecell-heading h2 {
+        /* color: #FDCA85; */
+        font-size: 28px;
+        font-weight: 300;
+        background: -webkit-linear-gradient( 
+    45deg,#BC945D, #966F41,#FDCA85,#966F41);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .rolta-box h3 {
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    
+}
+
+@media (max-width: 600px)
+    {
+        .ecell-heading h1 {
+            /* color: #FDCA85; */
+            font-size: 21px;
+            font-weight: 400;
+            background: -webkit-linear-gradient( 
+        45deg,#BC945D, #966F41,#FDCA85,#966F41);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .ecell-heading h2 {
+            /* color: #FDCA85; */
+            font-size: 18px;
+            font-weight: 300;
+            background: -webkit-linear-gradient( 
+        45deg,#BC945D, #966F41,#FDCA85,#966F41);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .rolta-box h3 {
+            font-weight: 200;
+            font-size: 12px;
+        }
+
+    }
+
+    @media (max-width: 450px)   
+    {
+        .ecell-heading h1 {
+            /* color: #FDCA85; */
+            font-size: 16px;
+            font-weight: 400;
+            background: -webkit-linear-gradient( 
+        45deg,#BC945D, #966F41,#FDCA85,#966F41);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .ecell-heading h2 {
+            /* color: #FDCA85; */
+            font-size: 15px;
+            font-weight: 300;
+            background: -webkit-linear-gradient( 
+        45deg,#BC945D, #966F41,#FDCA85,#966F41);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .rolta-box h3 {
+            font-weight: 200;
+            font-size: 10px;
+        }
+
+    }
