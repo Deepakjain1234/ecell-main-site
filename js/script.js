@@ -52,3 +52,23 @@ const body = document.querySelector("body");
     window.onscroll = ()=>{
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
     }
+
+
+
+
+    document.getElementById("btn2").addEventListener("click", function(e){
+      e.preventDefault()
+        document.getElementById("abt").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
+    });
+    document.getElementById("btn3").addEventListener("click", function(e){
+        e.preventDefault()
+        document.getElementById("spk").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
+    });
+    document.getElementById("btn4").addEventListener("click", function(e){
+      e.preventDefault()
+        document.getElementById("map").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
+    });
+    document.getElementById("btn1").addEventListener("click", function(e){
+      e.preventDefault()
+        document.getElementById("why").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
+    });
