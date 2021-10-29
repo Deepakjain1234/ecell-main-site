@@ -70,5 +70,5 @@ const body = document.querySelector("body");
     });
     document.getElementById("btn1").addEventListener("click", function(e){
       e.preventDefault()
-        document.getElementById("why").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
+        document.getElementById("events").scrollIntoView(true,{behavior: "smooth", block: "end", inline: "nearest"});
     });
